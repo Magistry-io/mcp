@@ -1,0 +1,104 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.magistry/magistry",
+  "title": "Magistry",
+  "description": "Sales, marketing, ads, orders and customer service across every store, marketplace and channel.",
+  "version": "2.0.0",
+  "websiteUrl": "https://www.magistry.io",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.magistry.io/api/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://www.magistry.io/icon.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "generated_by": "apps/dashboard/lib/api/artifacts/mcp-manifest.ts",
+      "server_implementation": {
+        "name": "magistry",
+        "version": "2.0.0"
+      },
+      "protocol_versions": [
+        "2026-07-28",
+        "2025-06-18"
+      ],
+      "authorization": {
+        "type": "oauth2.1",
+        "protected_resource_metadata": "https://app.magistry.io/.well-known/oauth-protected-resource",
+        "authorization_server_metadata": "https://app.magistry.io/.well-known/oauth-authorization-server",
+        "scopes": [
+          "admin",
+          "ads:read",
+          "ads:write",
+          "analytics:read",
+          "analytics:write",
+          "automation:read",
+          "automation:write",
+          "billing:read",
+          "catalog:read",
+          "catalog:write",
+          "costs:read",
+          "costs:write",
+          "creative:read",
+          "creative:write",
+          "cs:read",
+          "cs:write",
+          "developer:read",
+          "developer:write",
+          "disputes:read",
+          "disputes:write",
+          "finance:read",
+          "finance:write",
+          "integrations:read",
+          "integrations:write",
+          "marketplaces:read",
+          "marketplaces:write",
+          "merchant:read",
+          "merchant:write",
+          "orders:read",
+          "orders:write",
+          "promotions:read",
+          "promotions:write",
+          "read",
+          "reputation:read",
+          "reputation:write",
+          "research:read",
+          "research:write",
+          "settings:read",
+          "settings:write",
+          "social:read",
+          "social:write",
+          "theme:read",
+          "theme:write",
+          "workspace:read",
+          "workspace:write",
+          "write"
+        ],
+        "note": "Every tool call is authenticated and scoped to one store. There is no anonymous access to merchant data; the documents linked here are contract only."
+      },
+      "tools": {
+        "total": 989,
+        "read": 435,
+        "write": 554,
+        "note": "The MCP tool list is filtered per credential — a caller sees the subset their granted scopes satisfy, never all of them by default."
+      },
+      "rest_api": {
+        "version": "1",
+        "openapi": "https://app.magistry.io/api/v1/openapi.json",
+        "asyncapi": "https://app.magistry.io/api/v1/asyncapi.json",
+        "changelog": "https://app.magistry.io/api/v1/changelog.json",
+        "minimum_deprecation_notice_days": 365
+      },
+      "llms_txt": "https://www.magistry.io/llms.txt"
+    }
+  }
+}

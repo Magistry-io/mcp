@@ -1,6 +1,6 @@
 # Magistry MCP server
 
-Magistry is an AI operations platform for online stores. Its remote MCP server lets Claude, ChatGPT, Cursor, Gemini CLI or any MCP client read and run a store that Magistry is connected to: Google Ads and other ad networks, the Merchant Center feed, the catalog, orders, customer service, disputes, costs and the Marketing Brain.
+Magistry is the operating system your business runs on: every channel, ad, order and customer conversation in one live data layer, with agents doing the daily work across marketing, sales, service and operations, under your control. It serves online stores and any other business, from single brands to agencies with many workspaces. Its remote MCP server lets Claude, ChatGPT, Gemini, Cursor or any MCP client read and run that business: ads on 16+ networks, shopping feeds, catalog, orders, customer service, reviews, disputes, finance and the Marketing Brain.
 
 This repository holds no server code. It holds the public manifests and install snippets for the hosted server.
 
@@ -13,14 +13,18 @@ This repository holds no server code. It holds the public manifests and install 
 
 ## Works with
 
-Everything the merchant connected in Magistry:
+Whatever the business connected in Magistry, and the list keeps growing. For example:
 
-- **Store platforms:** Shopify, WooCommerce, Shopware, Magento, Lightspeed eCom and PrestaShop, or any other platform through Magistry's custom API.
-- **Marketplaces:** bol.
-- **Advertising:** Google Ads, Meta (Facebook and Instagram), Microsoft Advertising, Pinterest, Reddit, LinkedIn, bol Ads, Criteo, Taboola and Outbrain.
-- **Feeds and analytics:** Google Merchant Center, Google Analytics 4 and Search Console.
-- **Customer service:** the email inbox and threads Magistry handles.
-- **Approvals anywhere:** approval cards from a client land in the Magistry dashboard and in the Magistry app for [iOS](https://apps.apple.com/app/id6809195526) and [Android](https://play.google.com/store/apps/details?id=io.magistry.app).
+- **Commerce:** Shopify, WooCommerce, Shopware, Magento (Adobe Commerce), PrestaShop and Lightspeed eCom, any other system through the Magistry API, or no webshop at all.
+- **Marketplaces** such as bol.
+- **Advertising** on 16+ networks, including Google Ads, Meta, Microsoft Advertising, Pinterest, Reddit, LinkedIn, Criteo, Taboola and Outbrain.
+- **Feeds and analytics:** Google Merchant Center and other catalogs, Google Analytics 4, Search Console.
+- **Customer service** on the business's own mailbox, plus social publishing and reviews.
+- **Everywhere you work:** the web app and the Magistry app for [iOS](https://apps.apple.com/app/id6809195526) and [Android](https://play.google.com/store/apps/details?id=io.magistry.app), where approval cards from any client can be approved.
+
+## Enterprise controls
+
+OAuth 2.1 with per-scope consent, every call limited to the workspaces and scopes the user granted, a full audit log of each tool call, undo for price and copy changes, and one kill switch that pauses everything. Refunds, gift cards, order cancellations and money transfers are never exposed to connected clients.
 
 ## What a client can do
 

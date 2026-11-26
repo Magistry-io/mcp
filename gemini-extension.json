@@ -1,7 +1,7 @@
 {
   "name": "magistry",
   "version": "2.0.0",
-  "description": "Run an online store from Gemini CLI: ads, Shopping feed, catalog, orders, customer service and disputes, through Magistry's remote MCP server (OAuth).",
+  "description": "Run your business from Gemini CLI through Magistry's remote MCP server (OAuth): marketing and ads on 16+ networks, catalog and feeds, orders, customer service, reviews, finance and operations, across every store platform, marketplace and channel you connect.",
   "mcpServers": {
     "magistry": {
       "httpUrl": "https://app.magistry.io/api/mcp"

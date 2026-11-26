@@ -1,0 +1,15 @@
+{
+  "name": "magistry",
+  "displayName": "Magistry",
+  "version": "1.0.0",
+  "description": "Run your business from Cursor through Magistry's remote MCP server (OAuth 2.1): marketing and ads on 16+ networks, catalog and shopping feeds, orders, customer service, reviews, finance and operations, across every store platform, marketplace and channel you connect.",
+  "author": {
+    "name": "Magistry",
+    "email": "support@magistry.io"
+  },
+  "homepage": "https://www.magistry.io/platform/developers/mcp",
+  "repository": "https://github.com/Magistry-io/mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "ecommerce", "shopify", "woocommerce", "google-ads", "meta-ads", "customer-support", "marketing", "operations", "ai-agents"],
+  "logo": "assets/logo.svg"
+}

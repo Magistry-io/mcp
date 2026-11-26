@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "magistry": {
+      "url": "https://app.magistry.io/api/mcp"
+    }
+  }
+}

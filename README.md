@@ -11,6 +11,17 @@ This repository holds no server code. It holds the public manifests and install 
 - **REST API:** https://app.magistry.io/api/v1/openapi.json
 - **Pricing:** free plan (50 AI credits a month, no credit card); paid plans from $99 a month.
 
+## Works with
+
+Everything the merchant connected in Magistry:
+
+- **Store platforms:** Shopify, WooCommerce, Shopware, Magento, Lightspeed eCom and PrestaShop, or any other platform through Magistry's custom API.
+- **Marketplaces:** bol.
+- **Advertising:** Google Ads, Meta (Facebook and Instagram), Microsoft Advertising, Pinterest, Reddit, LinkedIn, bol Ads, Criteo, Taboola and Outbrain.
+- **Feeds and analytics:** Google Merchant Center, Google Analytics 4 and Search Console.
+- **Customer service:** the email inbox and threads Magistry handles.
+- **Approvals anywhere:** approval cards from a client land in the Magistry dashboard and in the Magistry app for [iOS](https://apps.apple.com/app/id6809195526) and [Android](https://play.google.com/store/apps/details?id=io.magistry.app).
+
 ## What a client can do
 
 Reads cover orders, catalog and variants, ad performance, customer service threads, disputes, costs and expenses, decisions and alerts, and the Marketing Brain. Writes reach Google Ads, Shopify admin, Google Analytics 4 and Merchant Center, plus Magistry's own discounts, drafts and settings.
